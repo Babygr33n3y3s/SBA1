@@ -1,1 +1,69 @@
-h1
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.boxes {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 20px;
+}
+#box1 {
+  background-color: #6247aa;
+}
+#box2 {
+  background-color: #7251b5;
+}
+#box3 {
+  background-color: #815ac0;
+}
+#box4 {
+  background-color: #9163cb;
+}
+#box5 {
+  background-color: #a06cd5;
+}
+#box6 {
+  background-color: #b185db;
+}
+#box7 {
+  background-color: #c19ee0;
+}
+#box8 {
+  background-color: #d2b7e5;
+}
+
+.rowboxes {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 20px;
+}
+#box9 {
+  background-color: red;
+  flex-direction: row;
+}
+#box10 {
+  background-color: black;
+}
+#box11 {
+  background-color: orangered;
+}
+#box12 {
+  background-color: yellow;
+}
+#box13 {
+  background-color: indigo;
+}
+#box14 {
+  background-color: violet;
+}
+#box15 {
+  background-color: darkgray;
+}
+#box16 {
+  background-color: darkred;
+}
